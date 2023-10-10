@@ -1,0 +1,50 @@
+#!/usr/bin/env php
+<?php
+	
+    define('DIR', __DIR__ . '/../');
+	
+	require __DIR__ . '/class/minifier.php';
+	$data = require __DIR__ . "/config.php";
+    function error($str){ return "\033[31m$str \033[0m";}
+	function success($str){ return "\033[32m$str \033[0m";}
+    function warning($str){ return "\033[33m$str \033[0m";}
+    function info($str){ return "\033[36m$str \033[0m";}
+	
+	
+	$i = 0;
+	while (true) {
+        $i++;
+        
+		system('clear');
+        print_r(info("  _____
+ / ____|
+| (___   ___   ___ ___  _ __ ___
+ \___ \ / _ \ / __/ _ \| '__/ _ \
+ ____) | (_) | (_| (_) | | |  __/
+|_____/ \___/ \___\___/|_|  \___|") . PHP_EOL);
+        print_r(warning('JavaScript and CSS bundler Tool') . PHP_EOL . PHP_EOL);
+        $minifier = new Minifier(true, true);
+        
+		// For JavaScript
+        $js = $data['js'];
+        $js_content = '';
+        foreach ($js['sources'] as $source){
+	        $js_content .= ' ' . file_get_contents(DIR . $source) . PHP_EOL;
+        }
+        file_put_contents(DIR . $js['output_org'], $js_content);
+        file_put_contents(DIR . $js['output_min'], $minifier->minify_js($minifier->minify_js($js_content)));
+		echo info('Regenerate: ') . success(array_reverse(explode('/', $js['output_org']))[0]) . PHP_EOL;
+		echo info('Regenerate: ') . success(array_reverse(explode('/', $js['output_min']))[0]) . PHP_EOL;
+        
+        // For CSS
+        $css = $data['css'];
+		$css_content = '';
+		foreach ($css['sources'] as $source){
+			$css_content .= ' ' . file_get_contents(DIR . $source) . PHP_EOL;
+		}
+		file_put_contents(DIR . $css['output_org'], $css_content);
+		file_put_contents(DIR . $css['output_min'], $minifier->minify_js($minifier->minify_js($css_content)));
+		echo info('Regenerate: ') . success(array_reverse(explode('/', $css['output_org']))[0]) . PHP_EOL;
+		echo info('Regenerate: ') . success(array_reverse(explode('/', $css['output_min']))[0]) . PHP_EOL;
+		sleep(1);
+	}

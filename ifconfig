@@ -1,0 +1,2 @@
+#!/usr/bin/env php
+<?php system("ipconfig getifaddr en0") ?>

@@ -1,0 +1,36 @@
+#!/usr/bin/env php
+<?php
+
+    define('DIR', __DIR__ . '/../');
+    function error($str)
+    {
+        return "\033[31m$str \033[0m";
+    }
+
+    function success($str)
+    {
+        return "\033[32m$str \033[0m";
+    }
+
+    function warning($str)
+    {
+        return "\033[33m$str \033[0m";
+    }
+
+    function info($str)
+    {
+        return "\033[36m$str \033[0m";
+    }
+
+    system('php -S 192.168.1.191:8081 ../');
+    $date = date('Y-m-d H:i:s');
+    while (true) {
+        system('clear');
+        print_r(warning('[' . $date . ']') . success('Server started at http://192.168.1.191:8081'));
+        echo PHP_EOL;
+        print_r(warning('[' . $date . ']') . info('PHP version: ' . phpversion()));
+        echo PHP_EOL;
+        print_r(warning('[' . date('Y-m-d H:i:s') . ']') . info('Refresh...'));
+        echo PHP_EOL;
+        sleep(1);
+    }

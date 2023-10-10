@@ -1,0 +1,88 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/icons/default/icons.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/advlist/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/anchor/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/autolink/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/charmap/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/code/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/fullscreen/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/help/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/image/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/insertdatetime/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/link/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/lists/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/media/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/paste/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/preview/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/print/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/searchreplace/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/table/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/visualblocks/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/wordcount/plugin.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/themes/silver/theme.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/js/core/app-menu.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/js/core/app.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/js/scripts/jquery.min.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/media-select.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/brands.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/campaigns.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/catalog.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/categories.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/coupons.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/faq.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/filters.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/new-blog.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/new-page.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/new-product.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/pages.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/scripts.min.js" />
+        <item url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/seo-preview.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/icons/default/icons.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/advlist/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/anchor/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/autolink/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/charmap/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/code/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/fullscreen/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/help/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/image/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/insertdatetime/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/link/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/lists/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/media/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/paste/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/preview/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/print/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/searchreplace/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/table/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/visualblocks/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/plugins/wordcount/plugin.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/css/plugins/tinymce/themes/silver/theme.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/js/core/app-menu.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/js/core/app.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/app-assets/js/scripts/jquery.min.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/media-select.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/brands.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/campaigns.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/catalog.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/categories.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/coupons.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/faq.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/filters.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/new-blog.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/new-page.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/new-product.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/pages/pages.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/scripts.min.js" />
+      <root url="file://$PROJECT_DIR$/themes/admin/assets/assets/js/seo-preview.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

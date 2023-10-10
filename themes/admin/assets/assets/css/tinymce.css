@@ -1,0 +1,95 @@
+body{
+    color: #000000!important;
+}
+
+body p{
+    font-size: 16px!important;
+}
+
+/*
+.tox-statusbar__branding {
+    display: none;
+}
+
+.tox.tox-tinymce {
+    border-radius: .357rem;
+}
+
+.tox .tox-toolbar, .tox .tox-toolbar__overflow, .tox .tox-toolbar__primary, .tox-statusbar {
+    background: #283046 !important;
+    background-color: #283046 !important;
+}
+
+.tox.tox-tinymce .tox-toolbar__primary {
+    border-bottom: 1px solid #404656;
+}
+
+.tox.tox-tinymce, .tox.tox-tinymce * {
+    border-color: #404656!important;
+}
+
+.tox .tox-statusbar {
+    border-top: 1px solid #404656 !important;
+}
+
+.tox:not([dir="rtl"]) .tox-toolbar__group:not(:last-of-type) {
+    border-right: 1px solid #404656 !important;
+}
+
+.tox .tox-tbtn:hover span svg, .tox .tox-tbtn:hover, .tox .tox-tbtn:active span svg, .tox .tox-tbtn:active, .tox .tox-tbtn:focus, .tox .tox-tbtn:focus span svg {
+    color: #7266ef;
+    fill: #7266ef;
+    background: transparent !important;
+}
+
+body#tinymce {
+    background: #283046 !important;
+}
+
+.mce-content-body[data-mce-placeholder]:not(.mce-visualblocks)::before {
+    color: #b4b7bd;
+}
+
+
+.light-layout .tox-statusbar__branding {
+    display: none;
+}
+
+.light-layout .tox.tox-tinymce {
+    border-radius: .357rem;
+}
+
+.light-layout .tox .tox-toolbar, .tox .tox-toolbar__overflow, .tox .tox-toolbar__primary, .tox-statusbar {
+    background: #283046 !important;
+    background-color: #283046 !important;
+}
+
+.light-layout .tox.tox-tinymce .tox-toolbar__primary {
+    border-bottom: 1px solid #404656;
+}
+
+.light-layout .tox.tox-tinymce, .tox.tox-tinymce * {
+    border-color: #404656!important;
+}
+
+.light-layout .tox .tox-statusbar {
+    border-top: 1px solid #404656 !important;
+}
+
+.light-layout .tox:not([dir="rtl"]) .tox-toolbar__group:not(:last-of-type) {
+    border-right: 1px solid #404656 !important;
+}
+
+.light-layout .tox .tox-tbtn:hover span svg, .tox .tox-tbtn:hover, .tox .tox-tbtn:active span svg, .tox .tox-tbtn:active, .tox .tox-tbtn:focus, .tox .tox-tbtn:focus span svg {
+    color: #7266ef;
+    fill: #7266ef;
+    background: transparent !important;
+}
+
+.light-layout body#tinymce {
+    background: #283046 !important;
+}
+
+.light-layout .mce-content-body[data-mce-placeholder]:not(.mce-visualblocks)::before {
+    color: #b4b7bd;
+}*/

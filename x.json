@@ -1,0 +1,454 @@
+{
+    "/" : {
+        "seo" : {
+            "title" : "Anasayfa"
+        },
+        "components" : [
+            {
+                "name" : "Header",
+                "id" : "header-5",
+                "role" : "header",
+                "values" : {
+                    "sign_in_text" : "Giriş Yap",
+                    "sign_up_text" : "Kayıt Ol",
+                    "logo" : "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/gnb-desktop-120x32.png",
+                    "search_bar_text" : "Ne aramıştın?",
+                    "menu" : [
+                        {
+                            "text" : "Bilgisayarlar",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Tabletler",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Telefonlar",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "TV ve Ev Sinema Sistemleri",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Kamera ve Fotoğraf",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Ses ve Müzik Sistemleri",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Oyun Konsolları",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Devre Kartları (PCB)",
+                            "url" : ""
+                        }
+                    ]
+                }
+            },
+            {
+                "name" : "Mobile Header",
+                "id" : "mobile-header-1",
+                "role" : "mobile-header",
+                "values" : {
+                    "bottom_bar" : true
+                }
+            },
+            {
+                "name" : "Slider",
+                "id" : "slider-1",
+                "role" : "slider",
+                "values" : {}
+            },
+            {
+                "name" : "Product List",
+                "id" : "product-list-1",
+                "role" : "product-list",
+                "values" : {
+                    "title" : "Öne Çıkan Ürünler"
+                }
+            },
+            {
+                "name" : "Search Page",
+                "id" : "text-with-image-1",
+                "role" : "text-with-image",
+                "values" : {
+                    "product_detail_button" : "Ürün Detayları",
+                    "product_keys" : [
+                        "82df2ab9f8b7eedd871d23466b57ab39",
+                        "44c6df0b2170a7c417fed424f6f06f12",
+                        "65d19ca2331494434c4ebb9017dbc4c1"
+                    ]
+                }
+            },
+            {
+                "name" : "Product List",
+                "id" : "product-list-1",
+                "role" : "product-list",
+                "values" : {
+                    "title" : "Yeni Ürünler"
+                }
+            },
+            {
+                "name" : "Product List",
+                "id" : "product-list-1",
+                "role" : "product-list",
+                "values" : {
+                    "title" : "Tüm Ürünler"
+                }
+            },
+            {
+                "name" : "Product List",
+                "id" : "product-list-1",
+                "role" : "product-list",
+                "values" : {}
+            },
+            {
+                "name" : "Kolaj",
+                "id" : "collage-2",
+                "role" : "collage",
+                "values" : {
+                    "image_1" : "https://images.unsplash.com/photo-1623393807193-e095f7944161?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8anVtcGVyfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+                    "image_2" : "https://images.unsplash.com/photo-1601379327928-bedfaf9da2d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8anVtcGVyfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+                    "title" : "Kazaklarda %20 Kaldırım",
+                    "button_text" : "Hadi İncele",
+                    "button_url" : "https://socore.app/"
+                }
+            },
+            {
+                "name" : "Footer",
+                "id" : "footer-1",
+                "role" : "footer",
+                "values" : {
+                    "copyright" : "Copyright 2023. Tüm hakları saklıdır.",
+                    "logo" : "http://192.168.1.191:8081/media/645e6bfdd05d1a69c5e47b20f0a91d46.png",
+                    "social" : [
+                        {
+                            "icon" : "fab fa-tiktok",
+                            "url" : "https://tiktok.com/ikasturkiye"
+                        },
+                        {
+                            "icon" : "fab fa-tiktok",
+                            "url" : "https://tiktok.com/ikasturkiye"
+                        }
+                    ],
+                    "menu" : [
+                        {
+                            "title" : "Kurumsal",
+                            "menu" : [
+                                {
+                                    "title" : "Biz Kimiz",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Kariyer",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "İletişim",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Toptancımız Olun",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Güvenli Alışveriş",
+                                    "url" : "/about"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "About Us",
+                            "menu" : [
+                                {
+                                    "title" : "Who We Are",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Careers",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Contact Us",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Sustainability",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Mobil Uygulamalar",
+                                    "url" : "/about"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "Kampanyalar",
+                            "menu" : [
+                                {
+                                    "title" : "Aktif Kampanyalar",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Elite Üyelik",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Hediye Fikirleri",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Fırsatlar",
+                                    "url" : "/about"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "Yardım",
+                            "menu" : [
+                                {
+                                    "title" : "Sıkça Sorulan Sorular",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Canlı Yardım",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Nasıl İade Edebilirim",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "İşlem Rehberi",
+                                    "url" : "/about"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "Markalar",
+                            "menu" : [
+                                {
+                                    "title" : "Apple",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Microsoft",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Google",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Lenovo",
+                                    "url" : "/about"
+                                }
+                            ]
+                        }
+                    ],
+                    "brand_bar" : true
+                }
+            }
+        ]
+    },
+    "/about" : {
+        "seo" : {
+            "title" : "Hakkımızda"
+        },
+        "components" : [
+            {
+                "name" : "Header",
+                "id" : "header-5",
+                "role" : "header",
+                "values" : {
+                    "sign_in_text" : "Giriş Yap",
+                    "sign_up_text" : "Kayıt Ol",
+                    "logo" : "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/gnb-desktop-120x32.png",
+                    "search_bar_text" : "Ne aramıştın?",
+                    "menu" : [
+                        {
+                            "text" : "Bilgisayarlar",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Tabletler",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Telefonlar",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "TV ve Ev Sinema Sistemleri",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Kamera ve Fotoğraf",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Ses ve Müzik Sistemleri",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Oyun Konsolları",
+                            "url" : ""
+                        },
+                        {
+                            "text" : "Devre Kartları (PCB)",
+                            "url" : ""
+                        }
+                    ]
+                }
+            },
+            {
+                "name" : "Mobile Header",
+                "id" : "page-title-1",
+                "role" : "page-title",
+                "values" : {
+                    "title" : "Samsung LLC",
+                    "description" : "2013'ten buyana kadar"
+                }
+            },
+            {
+                "name" : "Kolaj",
+                "id" : "footer-1",
+                "role" : "footer",
+                "values" : {
+                    "copyright" : "Copyright 2023. Tüm hakları saklıdır.",
+                    "logo" : "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/gnb-desktop-120x32.png",
+                    "social" : [
+                        {
+                            "icon" : "fab fa-tiktok",
+                            "url" : "https://tiktok.com/ikasturkiye"
+                        },
+                        {
+                            "icon" : "fab fa-tiktok",
+                            "url" : "https://tiktok.com/ikasturkiye"
+                        }
+                    ],
+                    "menu" : [
+                        {
+                            "title" : "Kurumsal",
+                            "menu" : [
+                                {
+                                    "title" : "Biz Kimiz",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Kariyer",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "İletişim",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Toptancımız Olun",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Güvenli Alışveriş",
+                                    "url" : "/about"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "About Us",
+                            "menu" : [
+                                {
+                                    "title" : "Who We Are",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Careers",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Contact Us",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Sustainability",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Mobil Uygulamalar",
+                                    "url" : "/about"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "Kampanyalar",
+                            "menu" : [
+                                {
+                                    "title" : "Aktif Kampanyalar",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Elite Üyelik",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Hediye Fikirleri",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Fırsatlar",
+                                    "url" : "/about"
+                                }
+                            ]
+                        },
+                        {
+                            "title" : "Yardım",
+                            "menu" : [
+                                {
+                                    "title" : "Sıkça Sorulan Sorular",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Canlı Yardım",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Nasıl İade Edebilirim",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "İşlem Rehberi",
+                                    "url" : "/about"
+                                }
+                            ]
+                        },
+                       {
+                            "title" : "Markalar",
+                            "menu" : [
+                                {
+                                    "title" : "Apple",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Microsoft",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Google",
+                                    "url" : "/about"
+                                },
+                                {
+                                    "title" : "Lenovo",
+                                    "url" : "/about"
+                                }
+                            ]
+                        }
+                    ],
+                    "brand_bar" : true
+                }
+            }
+        ]
+    }
+}

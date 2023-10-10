@@ -1,0 +1,2 @@
+<script src="<?php echo e(siteUrl('first-data-load')); ?>"></script>
+<script src="<?php echo e(themeAssets('bundle.js')); ?>"></script><?php /**PATH /Users/bekir/Desktop/admin/themes/admin/views/web-builder/layouts/scripts.blade.php ENDPATH**/ ?>

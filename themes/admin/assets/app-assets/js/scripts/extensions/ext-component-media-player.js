@@ -1,0 +1,1 @@
+$(function(){"use strict";$(".video-player")&&new Plyr(".video-player",{tooltips:{controls:!0}}),$(".audio-player")&&new Plyr(".audio-player")});

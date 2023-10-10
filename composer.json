@@ -1,0 +1,41 @@
+{
+    "name" : "prototurk/php-boilerplate",
+    "description" : "PHP Başlangıç Yapısı",
+    "authors" : [
+        {
+            "name" : "tayfunerbilen",
+            "email" : "tayfunerbilen@gmail.com"
+        }
+    ],
+    "require" : {
+        "jenssegers/blade" : "^1.4",
+        "vlucas/valitron" : "^1.4",
+        "arrilot/dotenv-php" : "^2.0",
+        "illuminate/database" : "^8.40",
+        "aura/session" : "^2.1",
+        "izniburak/router" : "^2.3",
+        "ausi/slug-generator" : "^1.1",
+        "monolog/monolog" : "^2.8",
+        "symfony/translation" : "^6.0",
+        "fakerphp/faker" : "^1.20",
+        "guzzlehttp/guzzle" : "^7.0",
+        "voku/html-min" : "^4.5",
+        "filp/whoops" : "^2.14",
+        "phpmailer/phpmailer" : "^6.6",
+        "verot/class.upload.php" : "^2.1",
+        "php-http/curl-client" : "^2.2",
+        "nesbot/carbon" : "^2.65",
+        "ext-http" : "*",
+        "ext-simplexml" : "*",
+        "ext-pdo" : "*",
+        "ext-openssl" : "*"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Core\\" : "./core"
+        },
+        "files" : [
+            "./core/helpers.php"
+        ]
+    }
+}

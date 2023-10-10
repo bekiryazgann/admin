@@ -1,0 +1,13 @@
+let pageDatatable=$("#page-datatable").DataTable({ajax:{url:url+"api/pages"},columns:[{data:"id",orderable:!1,render:function(e,t,a,l){return'<div class="form-check"> <input class="form-check-input dt-checkboxes" type="checkbox" value="" id="checkbox'+a.id+'" /><label class="form-check-label" for="checkbox'+a.id+'"></label></div>'},checkboxes:{selectAllRender:'<div class="form-check"> <input class="form-check-input" type="checkbox" value="" id="checkboxSelectAll" /><label class="form-check-label" for="checkboxSelectAll"></label></div>'}},{data:"id"},{data:"title"},{data:"status",orderable:!1,render:function(e,t,a){let l="";return`<div><span class="badge badge-light-${1===Number(e)?(l="Yayında","success"):(l="Gizli","danger")} text-center">${l}</span></div>`}},{data:"realId",width:"12%",orderable:!1,render:function(e,t,a){return`<div class="d-flex justify-content-between align-items-center mx-auto" style="padding-bottom: 0;padding-right: 0; padding-left: 0;">
+                            <div>
+                                <a href="${url+"catalog/pages/edit-page/"+a.realId}"
+                                   class="btn btn-flat-primary btn-sm" id="pageEdit" data-key="${a.realId}">
+                                    <i class="far fa-edit" style="font-size: 18px"></i>
+                                </a>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-flat-primary btn-sm" id="pageDelete" data-key="${a.realId}">
+                                    <i class="far fa-trash" style="font-size: 18px"></i>
+                                </button>
+                            </div>
+                        </div>`}}],...datatableOptions});$(document).on("click","#pageDelete",function(e){let t=$(this).data("key");Swal.fire({title:"Emin misiniz?",text:"Bunu geri alamazsınız!",icon:"warning",showCancelButton:!0,confirmButtonText:"Sil",cancelButtonText:"Vazgeç",showClass:{popup:"animate__animated animate__fadeIn"},customClass:{confirmButton:"btn btn-outline-primary",cancelButton:"btn btn-outline-danger ms-1"},buttonsStyling:!1}).then(function(e){e.value&&($.post(url+"api/delete-page",{id:t},function(e){e.error?toastr.error(e.error.message,e.error.title,{closeButton:!0,tapToDismiss:!1,rtl:!1}):toastr.success(e.success.message,e.success.title,{closeButton:!0,tapToDismiss:!1,rtl:!1})}),pageDatatable.draw())}),e.preventDefault()});

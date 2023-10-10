@@ -1,0 +1,1 @@
+new Swiper("#text-with-image-swiper", {});<?php /**PATH /Users/bekir/Desktop/admin/themes/admin/views/web-builder/components/text-with-image/text-with-image-1/js.blade.php ENDPATH**/ ?>
